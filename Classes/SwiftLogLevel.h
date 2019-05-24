@@ -21,6 +21,8 @@
 #define DD_LOG_LEVEL DDLogLevelAll
 #endif
 
+#import "CocoaLumberjack.h"
+
 static const DDLogLevel DDDefaultLogLevel = DD_LOG_LEVEL;
 
 #endif /* SwiftLogLevel_h */
